@@ -15,7 +15,7 @@ def insert_user(userid,username):
     cur=conn.cursor()
     cur.execute(query)
     conn.commit()
-    print("user saved to db")
+    #print("user saved to db")
 
 insert_user(14,"dev")
 
